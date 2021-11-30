@@ -21,6 +21,7 @@ Route::prefix('admins')->group(function() {
         Route::get('dashboard', [\App\Http\Controllers\AdminController::class,'dashboard']);
 
         Route::apiResource('contacts', \App\Http\Controllers\ContactController::class);
+        Route::apiResource('clients', \App\Http\Controllers\AdminClientController::class);
         Route::get('user', [\App\Http\Controllers\AdminController::class,'me']);
         Route::patch('user', [\App\Http\Controllers\AdminController::class,'update']);
         Route::any('logout',  [\App\Http\Controllers\AdminController::class,'logout']);
