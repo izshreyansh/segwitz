@@ -10,4 +10,4 @@
 Demo Admin, Clients and Contacts will be seeded.
 Now you can make use of the postman collection in-order to test the api.
 
-[Note: Please refer to the seeded dummy data in-order to get login credentials for both Admin & Client.]
+[Note: Please refer to the seeded dummy data in-order to get login credentials for both Admin & Client. Password is `password` for all accounts]
